@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border : 0px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.backgroundimage {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    max-height: 437px;
+    max-width: 100vw;
+}
+
+@media screen and (max-width: 375px) {
+    .backgroundimage{
+        background-image: url(images/pattern-background-mobile.svg);
+    }
+}
+
+.font_500 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.font_700 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.font_900 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.full {
+    width: 100vw;
+    height: 100vh;
+}
+
+.border {
+    border: solid 3px black;
+}
+
+.borderred {
+    border: solid 3px red;
+}
+
+.flexh {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexv {
+    display: flex;
+    flex-direction: column;
+}
+
+.justifycenter {
+    justify-content: center;
+}
+
+.alignitemcenter {
+    align-items: center;
+}
+
+.alignselfcenter {
+    align-self: center;
+}
+
+.margintop {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.flexgrow_1 {
+    flex-grow: 1;
+}
+
+.flexwrap {
+    flex-wrap: wrap;
+}
+
+.textcenter {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.size {
+    max-width: 450px;
+}
+
+.backgroundprice {
+   background: hsl(225, 100%, 94%);
+}
+
+.padding-top {
+    padding-top: 5%;
+}
+
+.padding-bottom {
+    padding-bottom: 5%;
+}
+
+.gap {
+    gap: 5%;
+}
+
+.paddingprice {
+    padding: 3%;
+}
+
+.backgroundunderimg {
+    background: hsl(225, 100%, 98%) ;
+}
