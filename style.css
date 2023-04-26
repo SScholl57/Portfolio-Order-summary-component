@@ -22,6 +22,17 @@
     }
 }
 
+@media screen and (max-width: 375px) {
+    .borderradiusimg {
+        max-width: 345px;
+    }
+    .size {
+        max-width: 345px;
+        width: 345px;
+    } 
+}
+
+
 .font_500 {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 500;
@@ -144,7 +155,7 @@
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 10px;
-    color: hsl(225, 100%, 94%);
+    color: white;
     -webkit-box-shadow: 0px 25px 30px 0px hsla(245, 75%, 52%, 0.2); 
     box-shadow: 0px 25px 30px 0px hsla(245, 75%, 52%, 0.2);
 }
@@ -169,6 +180,12 @@
 
 .cancelpadding {
     padding-bottom: 35px;
+}
+
+@media screen and (max-width: 450px) {
+    .cancelpadding {
+        padding-bottom: 20px;
+    }
 }
 
 .borderradiusimg {
@@ -223,4 +240,24 @@
 
 .paddingtext {
     padding-bottom: 5px;
+}
+
+@media screen and (max-width: 375px) {
+    .paddingpayment {
+        padding-left: 65px;
+        padding-right: 65px;
+    }
+
+    .annualplan {
+        padding-right: 45px;
+    }
+    .paddingprice{
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
+
+    .musicicon {
+        padding-left: 15px;
+        margin-right: 15px;
+    }
 }
